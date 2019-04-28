@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b1a003c-0af7-488f-84a8-99d34fd1f41c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/BlogCategoryRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/CoreRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/docs.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/blog/admin/categories/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/blog/admin/categories/includes/item_edit_add_col.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/blog/admin/categories/includes/item_edit_main_col.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/blog/admin/categories/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/blog/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/BlogCategoriesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/BlogCategoriesTableSeeder.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,13 +34,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/CategoryController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="141" column="8" selection-start-line="141" selection-start-column="8" selection-end-line="141" selection-end-column="8" />
+            <state relative-caret-position="518">
+              <caret line="142" column="39" lean-forward="true" selection-start-line="142" selection-start-column="39" selection-end-line="142" selection-end-column="39" />
               <folding>
                 <element signature="e#51#99#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Repositories/BlogCategoryRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="85" selection-start-line="85" selection-end-line="85" />
+              <folding>
+                <element signature="e#37#74#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/seeds/BlogCategoriesTableSeeder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+              <folding>
+                <element signature="e#7#38#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,7 +105,6 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/database/migrations/2019_04_19_203630_create_blog_categories_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_04_19_203654_create_blog_posts_table.php" />
-        <option value="$PROJECT_DIR$/database/seeds/BlogCategoriesTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/factories/UserFactory.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
@@ -114,11 +131,13 @@
         <option value="$PROJECT_DIR$/resources/views/blog/admin/categories/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/blog/admin/categories/edit.blade.php" />
         <option value="$PROJECT_DIR$/app/Repositories/Core.php" />
-        <option value="$PROJECT_DIR$/app/Repositories/CoreRepository.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/BaseController.php" />
         <option value="$PROJECT_DIR$/resources/views/blog/admin/categories/includes/item_edit_main_col.blade.php" />
+        <option value="$PROJECT_DIR$/app/Repositories/CoreRepository.php" />
         <option value="$PROJECT_DIR$/app/Repositories/BlogCategoryRepository.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/CategoryController.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/database/seeds/BlogCategoriesTableSeeder.php" />
       </list>
     </option>
   </component>
@@ -233,77 +252,18 @@
             <path>
               <item name="poligon.loc" type="b2602c69:ProjectViewProjectNode" />
               <item name="poligon.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="poligon.loc" type="b2602c69:ProjectViewProjectNode" />
               <item name="poligon.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="seeds" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="poligon.loc" type="b2602c69:ProjectViewProjectNode" />
               <item name="poligon.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="poligon.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poligon.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="poligon.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poligon.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="poligon.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poligon.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="poligon.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poligon.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="poligon.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poligon.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="categories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="poligon.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poligon.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="categories" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="poligon.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poligon.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="poligon.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poligon.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -372,18 +332,18 @@
       <workItem from="1556036875245" duration="5118000" />
       <workItem from="1556208460440" duration="6157000" />
       <workItem from="1556363731863" duration="11058000" />
-      <workItem from="1556433908212" duration="4138000" />
+      <workItem from="1556433908212" duration="7269000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89245000" />
+    <option name="totallyTimeSpent" value="92376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.21055438" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.21055438" />
       <window_info id="Structure" order="1" sideWeight="0.5005417" side_tool="true" weight="0.1977612" />
       <window_info id="Favorites" order="2" sideWeight="0.5005417" side_tool="true" weight="0.1977612" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -472,26 +432,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#45#81#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding>
-            <element signature="e#45#81#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
@@ -631,9 +571,6 @@
           <caret line="117" column="36" lean-forward="true" selection-start-line="117" selection-start-column="36" selection-end-line="117" selection-end-column="36" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -777,13 +714,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Repositories/Core.php" />
-    <entry file="file://$PROJECT_DIR$/app/Repositories/CoreRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="71" selection-start-line="37" selection-start-column="71" selection-end-line="37" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/BaseController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -819,16 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Repositories/BlogCategoryRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding>
-            <element signature="e#37#74#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/blog/admin/categories/includes/item_edit_main_col.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -836,12 +756,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/CoreRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/CategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="141" column="8" selection-start-line="141" selection-start-column="8" selection-end-line="141" selection-end-column="8" />
+        <state relative-caret-position="518">
+          <caret line="142" column="39" lean-forward="true" selection-start-line="142" selection-start-column="39" selection-end-line="142" selection-end-column="39" />
           <folding>
             <element signature="e#51#99#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.phpstorm.meta.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/BlogCategoryRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="e#37#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/BlogCategoriesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
